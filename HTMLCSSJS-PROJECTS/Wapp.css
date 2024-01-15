@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color:#fff;
+    margin: 30px auto 0px;/*  100px from top left right auto  and bottom 0*/
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;/*is often used when you want a flex item to expand and take up all available space in its container, and shrink proportionally if there's not enough space.*/
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 19px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px; 
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity,.wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+/*
+Certainly! The CSS code you provided is a set of styles applied to all elements on a webpage. Let's break down each term:
+
+*: This is a universal selector in CSS. It selects all elements on the webpage. In the context of your code, it means that the styles defined below will be applied to every element.
+
+padding: 0;: This sets the padding of all elements to 0. Padding is the space between the content of an element and its border. In this case, it ensures that there is no extra space inside any element.
+
+margin: 0;: This sets the margin of all elements to 0. Margin is the space outside an element, affecting its positioning in relation to other elements. Setting it to 0 removes any default margin.
+
+font-family: 'poppins', sans-serif;: This defines the font family for all text on the webpage. If the browser supports the 'poppins' font, it will be used; otherwise, it will fall back to a generic sans-serif font. Font-family defines the typeface or font used for the text content.
+
+box-sizing: border-box;: This sets the box-sizing property for all elements to "border-box." The box-sizing property determines how the total width and height of an element are calculated. In the "border-box" model, the width and height include the content, padding, and border of the element, but not the margin.*/
